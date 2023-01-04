@@ -4,4 +4,6 @@ The BinaryTree only provides only  initialization (constructor) and insertion as
 
 Each node stores, in the minimum, the number of occurrences of the object (a CounterObject) being represented for a given application.
 
-Besides, Sedgewick implementation of the QuickSort is available in the BinaryTree class only to someone play with it comparing performances...
+Besides, Sedgewick implementation of the QuickSort is available in the BinaryTree class only to someone play with it comparing performances for two sorting methods with O(nlogn) time complexity...
+
+In fact, there is no search method. But it's easily implemented adapting the insert method to not insert and to not increment the occurences count... Good exercise!
